@@ -1,0 +1,118 @@
+.page .content-page {
+  max-width: 1280px;
+  display: flex;
+  justify-content: center;
+  padding: 40px 8px 0;
+  margin: auto;
+}
+.page .container-content-page {
+  width: 70%;
+}
+.page .page-title {
+  font-size: 36px;
+  margin-bottom: 20px;
+  font-weight: 700;
+}
+.page .container-account-page {
+  width: 100%;
+  max-width: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.page .container-account-page .register-account, .page .container-account-page .login-account {
+  width: 100%;
+}
+.page .container-account-page .button-login, .page .container-account-page .btn-creat-account, .page .container-account-page .button-register {
+  text-align: center;
+  box-sizing: border-box;
+  display: block;
+  width: 100%;
+  color: #ffffff;
+  background: #54add3;
+  border: unset;
+  font-size: 17.5px;
+  font-weight: 400;
+  padding: 10px 30px;
+  text-transform: uppercase;
+}
+.page .container-account-page label {
+  display: block;
+  margin-bottom: 10px;
+}
+.page .container-account-page label em {
+  color: red;
+}
+.page .container-account-page input {
+  padding: 0 10px;
+  display: block;
+  height: 40px;
+  font-size: 16px;
+  box-sizing: border-box;
+  width: 100%;
+  border: 1px solid #234766;
+  margin-bottom: 20px;
+}
+.page .container-account-page .login, .page .container-account-page .register {
+  text-decoration: underline;
+  text-transform: uppercase;
+  display: block;
+  text-align: center;
+  font-size: 14px;
+  margin: 20px 0;
+}
+.page .container-account-page .box {
+  display: flex;
+  justify-content: space-between;
+}
+.page .container-account-page .save-pass {
+  font-size: 14px;
+  display: flex;
+  align-items: center;
+}
+.page .container-account-page #save-pass {
+  height: 14px;
+  width: unset;
+  margin: 0 0 0 10px;
+}
+.page .container-account-page .forgot-account {
+  font-size: 14px;
+}
+
+.account label {
+  display: block;
+  margin-bottom: 10px;
+}
+.account label em {
+  color: red;
+}
+.account input {
+  padding: 0 10px;
+  display: block;
+  height: 40px;
+  font-size: 16px;
+  box-sizing: border-box;
+  width: 100%;
+  border: 1px solid #234766;
+  margin-bottom: 20px;
+}
+.account .save {
+  text-align: center;
+  box-sizing: border-box;
+  display: block;
+  width: 100px;
+  color: #ffffff;
+  background: #54add3;
+  border: unset;
+  font-size: 17.5px;
+  font-weight: 400;
+  padding: 10px 30px;
+  text-transform: uppercase;
+}
+
+body {
+  color: #234766 !important;
+}
+
+/*# sourceMappingURL=pages.css.map */

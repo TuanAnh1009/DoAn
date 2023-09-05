@@ -1,0 +1,38 @@
+.content {
+    display: flex;
+
+    .content-left {
+        margin-right: 10px;
+    }
+    img {
+        height: 60px;
+    }
+}
+
+.text {
+    font-weight: 700;
+    color: #000;
+    span {
+        font-weight: 400;
+        color: #858796;
+    }
+}
+
+.list-image {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    img {
+        height: 200px;
+    }
+}
+
+.mm-active {
+    color: #ffffff;
+    font-weight: bold;
+}
+
+.cl-img {
+    width: 100%;
+    margin-bottom: 10px;
+}

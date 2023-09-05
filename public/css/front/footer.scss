@@ -1,0 +1,284 @@
+.section-footer {
+    margin-top: 80px;
+
+    .container-box {
+        padding: 0 10px;
+        height: 100%;
+    }
+
+    .line:before {
+        background: #54add3;
+        content: "";
+        display: block;
+        height: 5px;
+        left: 0;
+        position: absolute;
+        right: 0;
+        top: 25px;
+        width: 100%;
+        z-index: 3;
+    }
+
+    .pre-footer {
+        padding: 0 8px;
+        max-width: 1280px;
+        margin: auto;
+    }
+
+    .container-pre-footer {
+        display: flex;
+        gap: 2px;
+        width: 100%;
+
+        .newsletter {
+            width: 50%;
+        }
+
+        .social {
+            width: 50%;
+        }
+
+        .border {
+            box-shadow: 0 0 7px 2px #00000026;
+            transition: .3s all;
+            height: 100%;
+        }
+
+        .border:hover {
+            box-shadow: 0 0 7px 2px #0000004d;
+        }
+
+        .box {
+            position: relative;
+        }
+
+        .content-box-newsletter {
+            height: 100%;
+            box-sizing: border-box;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            background: #234766;
+            padding: 25px;
+        }
+
+        .title-box-newsletter {
+            font-size: 21px;
+            font-weight: 700;
+            text-transform: uppercase;
+            color: #54add3;
+            padding-top: 15px;
+            margin-bottom: 10px;
+        }
+
+        .description-newsletter {
+            font-size: 16px;
+            color: #ffffff;
+            margin-bottom: 16px;
+        }
+
+        .content-box-social {
+            height: 100%;
+            display: flex;
+            background: #f6f6f6;
+        }
+
+        .form-newsletter {
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+        }
+
+        .input-email {
+            font-size: 18px;
+            height: 40px;
+        }
+
+        .button-subscribe {
+            color: #ffffff;
+            background: #54add3;
+            border: unset;
+            font-size: 17.5px;
+            font-weight: 400;
+            padding: 7px 30px;
+            text-transform: uppercase;
+        }
+
+        .area-social {
+            width: 50%;
+            padding: 25px;
+
+            .title-box-social {
+                font-size: 21px;
+                font-weight: 700;
+                text-transform: uppercase;
+                padding-top: 15px;
+                margin-bottom: 10px;
+            }
+
+            .item-social {
+                font-size: 18px;
+                padding: 5px 0;
+            }
+
+            .item-social:hover {
+                color: #54add3;
+            }
+        }
+
+        .area-image {
+            width: 50%;
+
+            img {
+                height: 100%;
+                object-fit: cover;
+                display: block;
+                width: 100%;
+            }
+        }
+    }
+
+    .footer {
+        margin-top: 80px;
+        background: #f9f9f9;
+
+        .container-footer {
+            max-width: 1280px;
+            margin: auto;
+            padding: 0 8px;
+            display: flex;
+            gap: 2px;
+        }
+
+        .item-footer {
+            margin: 20px 0;
+            width: 25%;
+            position: relative;
+        }
+
+        .line:before {
+            background: #243766;
+        }
+
+        .title-item-footer {
+            text-transform: uppercase;
+            font-size: 20px;
+            font-weight: 700;
+        }
+
+        .list-link-footer {
+            margin-top: 20px;
+        }
+
+        .list-link-footer:first-child {
+            margin-top: 0;
+        }
+
+        .link-footer {
+            text-transform: capitalize;
+            margin-top: 10px;
+            font-size: 17.5px;
+
+            a:hover {
+                color: #54add3;
+            }
+        }
+
+        .inf-store {
+            margin-top: 20px;
+            display: flex;
+            gap: 20px;
+
+            img {
+                display: block;
+                max-width: 200px;
+            }
+
+            .inf {
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+            }
+
+            li {
+                margin-bottom: 10px;
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .section-footer {
+        margin-top: 50px;
+        .container-pre-footer {
+            flex-direction: column;
+
+            .newsletter {
+                width: 100%;
+            }
+
+            .social {
+                margin-top: 30px;
+                width: 100%;
+                .line:before {
+                    top: 15px;
+                }
+            }
+
+            .content-box-social {
+                flex-direction: column-reverse;
+            }
+
+            .area-social {
+                width: 100%;
+                padding: 25px;
+
+                .title-box-social {
+                    font-size: 21px;
+                    font-weight: 700;
+                    text-transform: uppercase;
+                    padding-top: 15px;
+                    margin-bottom: 10px;
+                }
+
+                .item-social {
+                    font-size: 18px;
+                    padding: 5px 0;
+                }
+
+                .item-social:hover {
+                    color: #54add3;
+                }
+            }
+
+            .area-image {
+                width: 100%;
+
+                img {
+                    display: block;
+                    width: 100%;
+                }
+            }
+        }
+
+        .footer {
+            margin-top: 50px;
+
+            .container-footer {
+                flex-wrap: wrap;
+            }
+
+            .item-footer {
+                width: calc(50% - 1px);
+            }
+
+            .inf-store {
+                flex-direction: column;
+
+                img {
+                    margin: auto;
+                }
+            }
+        }
+    }
+}

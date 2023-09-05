@@ -1,0 +1,136 @@
+.cart {
+    .my-cart {
+        max-width: 1280px;
+        margin: auto;
+        display: flex;
+        justify-content: center;
+    }
+
+    .container-cart {
+        padding: 40px 8px 0;
+        max-width: 90%;
+        width: 100%;
+    }
+
+    .title-cart {
+        font-size: 36px;
+        font-weight: 700;
+        margin-bottom: 40px;
+    }
+
+    .box-cart {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .list-product {
+        position: relative;
+        width: 70%;
+        padding: 0 10px;
+    }
+
+    .total {
+        position: relative;
+        width: 30%;
+        padding: 0 10px;
+    }
+
+    .title-item-cart {
+        font-size: 24px;
+        font-weight: bold;
+    }
+
+    .line {
+        border-bottom: 5px solid #54add3;
+        margin-bottom: 20px;
+    }
+
+    .btn-checkout {
+        align-items: center;
+        border: none;
+        padding: 7px 25px;
+        display: flex;
+        justify-content: center;
+        max-width: 100%;
+        background-color: #54add3;
+        color: #ffffff;
+        font-size: 17.5px;
+        text-transform: uppercase;
+        height: 40px;
+    }
+
+    .item-product {
+        display: flex;
+        gap: 50px;
+        margin-bottom: 10px;
+    }
+
+    .img-product {
+        width: 20%;
+        img {
+            width: 100%;
+            display: block;
+            object-fit: contain;
+        }
+    }
+
+    .inf-product {
+        width: 80%;
+        font-size: 20px;
+        div {
+            margin-top: 10px;
+        }
+    }
+
+    .name-product {
+        font-weight: bold;
+        color: #54add3;
+    }
+
+    .price-product {
+    }
+
+    .subtotal-product {
+        width: 70%;
+        font-size: 20px;
+        font-weight: bold;
+        margin-bottom: 10px;
+    }
+
+    .qty-product {
+        font-size: 20px;
+        font-weight: bold;
+    }
+
+    .remove-product {
+        font-size: 16px;
+        color: #54add3;
+    }
+
+    button {
+        all: unset;
+    }
+
+    .name-item-collection {
+        color: #54add3;
+        text-align: center;
+        font-size: 24px;
+        padding: 10px;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .cart {
+        .box-cart {
+            flex-direction: column;
+        }
+
+        .list-product {
+            width: 100%;
+        }
+
+        .total {
+            width: 100%;
+        }
+    }
+}

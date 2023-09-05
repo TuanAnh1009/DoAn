@@ -1,0 +1,312 @@
+.home-page {
+
+    .button {
+        color: #ffffff;
+        background: #54add3;
+        display: inline;
+        font-size: 17.5px;
+        font-weight: 400;
+        padding: 7px 30px;
+        text-transform: uppercase;
+    }
+
+    .line:before {
+        background: #234766;
+        content: "";
+        display: block;
+        height: 5px;
+        left: 0;
+        position: absolute;
+        right: 0;
+        top: 25px;
+        width: 100%;
+        z-index: 3;
+    }
+
+    .hero-banner {
+        width: 100%;
+        position: relative;
+        .container-hero-banner {
+            opacity: 0.5;
+            position: relative;
+            max-width: 1280px;
+            padding: 0 14px;
+            display: flex;
+            transition: opacity 0.5s ease;
+        }
+
+        .line:before {
+            background: #54add3;
+            top: 15px;
+        }
+
+        .content-hero {
+            background: #f2f2f2;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            width: 40%;
+            padding: 50px 80px 50px 30px;
+            margin-bottom: 70px;
+        }
+
+        .title-hero-banner {
+            font-size: 35px;
+        }
+
+        .button-hero-slider {
+            line-height: 2.5rem;
+        }
+
+        .image-hero {
+            width: 60%;
+
+            img {
+                width: 100%;
+                display: block;
+                max-height: 480px;
+                object-fit: cover;
+            }
+        }
+
+        .arrow-hero-banner {
+            position: absolute;
+            top: calc(50% - 33px);
+            left: 50%;
+            transform: translate(-50%,-50%);
+            width: 100%;
+            max-width: 1280px;
+            padding: 0 14.5px;
+            box-sizing: border-box;
+        }
+
+        .arrow-next {
+            position: absolute;
+            box-sizing: border-box;
+            padding: 5px;
+            display: flex;
+            right: 14.5px;
+            justify-content: center;
+            align-items: center;
+            background: #54add3;
+            color: #ffffff;
+            width: 40px;
+            height: 40px;
+            z-index: 4;
+        }
+
+        .dot-slider-hero-banner {
+            max-width: 1280px;
+            margin: auto;
+            padding: 0 14.5px;
+            box-sizing: border-box;
+        }
+
+        .slick-active {
+            opacity: 1!important;
+        }
+
+        .slick-dots {
+            display: flex;
+            margin: 0;
+            padding: 10px 0;
+            list-style-type: none;
+
+            li {
+                margin: 0 4px;
+            }
+
+            button {
+                display: block;
+                width: 13px;
+                height: 13px;
+                padding: 0;
+                border: none;
+                border-radius: 100%;
+                background-color: #f2f2f2;
+                transition: background-color .5s ease;
+                text-indent: -9999px;
+            }
+
+            li.slick-active button {
+                background-color: #54add3;
+            }
+
+        }
+
+        .slick-slider .slick-track {
+            display: flex;
+            gap: 2px
+        }
+    }
+
+    .home-description {
+        padding: 50px 0;
+        width: 100%;
+
+        .container-description {
+            font-size: 36px;
+            margin: auto;
+            max-width: 1280px;
+            text-align: center;
+            padding: 0 8px;
+        }
+
+        span {
+            border-bottom: 5px solid #54add3;
+            display: inline-block;
+            line-height: 1;
+        }
+    }
+
+    .home-about {
+        padding: 60px 25px;
+        display: grid;
+        gap: 20px;
+        margin: auto;
+        max-width: 1280px;
+        width: 100%;
+
+        .learn-more {
+            display: flex;
+            justify-content: center;
+        }
+
+        .link-learn-more {
+        }
+
+        .link-learn-more:hover {
+            background: #234766;
+        }
+
+        .container-about {
+            display: flex;
+            justify-content: space-between;
+            margin: 20px 0;
+        }
+
+        .item-about {
+            width: 30%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+        }
+
+        .home-about-img {
+            width: auto;
+            height: 140px;
+            display: block;
+        }
+
+        .title-item {
+            line-height: 1.2;
+            text-transform: uppercase;
+            font-size: 24px;
+            font-weight: 700;
+            margin-bottom: 10px;
+        }
+    }
+
+    .feature {
+        padding: 60px 0;
+        width: 100%;
+
+        .content-feature {
+            padding: 0 8px;
+            max-width: 1280px;
+            margin: auto;
+        }
+
+        .container-feature {
+            position: relative;
+            padding: 0 10px;
+        }
+
+        .title-feature {
+            color: #54add3;
+            font-size: 21px;
+            font-weight: 700;
+        }
+
+        .slider-feature {
+            margin: 50px 0;
+            display: flex;
+            gap: 50px;
+        }
+
+        .slider-feature:before {
+            content: "\201c";
+            font-size: 76px;
+            color: #54add3;
+            text-align: end;
+            line-height: 0.85;
+            display: block;
+            width: 20%;
+        }
+
+        .slider-feature:after {
+            content: "";
+            display: block;
+            width: 20%;
+        }
+
+        .box-feature {
+            font-size: 28px;
+            width: 100%;
+        }
+    }
+
+    @media only screen and (max-width: 768px) {
+        .hero-banner {
+            .container-hero-banner {
+                flex-direction: column-reverse;
+            }
+
+            .content-hero {
+                padding: 25px 10px;
+                width: 100%;
+                margin-bottom: 10px;
+            }
+
+            .title-hero-banner {
+                font-size: 24px;
+            }
+
+            .image-hero {
+                width: 100%;
+            }
+
+            .arrow-hero-banner {
+                display: none;
+            }
+        }
+
+        .home-description {
+            .container-description {
+                font-size: 24px;
+            }
+        }
+
+        .home-about {
+            .container-about {
+                flex-direction: column;
+                gap: 20px;
+            }
+
+            .item-about {
+                width: 100%;
+            }
+
+            .title-item {
+                font-size: 19px;
+            }
+        }
+
+        .feature {
+            .box-feature {
+                font-size: 16px;
+            }
+        }
+    }
+}

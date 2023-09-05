@@ -1,0 +1,206 @@
+html {
+  cursor: default;
+}
+
+body {
+  font-family: Sofia Pro Bold, sans-serif;
+  color: #234766;
+  margin: 0;
+  box-sizing: border-box;
+}
+body a {
+  text-decoration: unset;
+  color: unset;
+}
+body ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+body li, body button, body a {
+  cursor: pointer;
+}
+body div, body section {
+  box-sizing: border-box;
+}
+
+.cart-count {
+  align-items: center;
+  background-color: #234766;
+  border-radius: 50%;
+  font-size: 10px;
+  color: #fff;
+  display: flex;
+  width: 15px;
+  height: 15px;
+  justify-content: center;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  left: 90%;
+  top: 30%;
+}
+
+.collection-slider {
+  background: #f2f2f2;
+  padding: 80px 0;
+}
+.collection-slider .container-link-collection {
+  max-width: 1280px;
+  box-sizing: border-box;
+  margin: auto;
+  padding: 0 8px;
+}
+.collection-slider .name-collection {
+  margin-bottom: 15px;
+}
+.collection-slider .link-collection {
+  font-size: 20px;
+  text-transform: uppercase;
+  font-weight: 700;
+  display: inline;
+  margin: 0 10px;
+}
+.collection-slider .link-collection:hover {
+  border-bottom: 5px solid #54add3;
+}
+.collection-slider .container-collection-slider {
+  position: relative;
+}
+.collection-slider .container-collection-slider:hover .arrow-collection-slider {
+  display: block;
+}
+.collection-slider .list-product {
+  display: flex;
+}
+.collection-slider .item-product {
+  padding: 0 10px;
+  width: 312px;
+  position: relative;
+}
+.collection-slider .link-product {
+  display: block;
+  box-shadow: 0 0 7px 2px rgba(0, 0, 0, 0.1490196078);
+  transition: 0.3s all;
+}
+.collection-slider .link-product:hover {
+  box-shadow: 0 0 7px 2px rgba(0, 0, 0, 0.3019607843);
+}
+.collection-slider .sold-out {
+  padding: 5px 10px;
+  background-color: #234766;
+  color: #f2f2f2;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  top: 40%;
+  left: 50%;
+}
+.collection-slider .product {
+  background: #ffffff;
+}
+.collection-slider .line:before {
+  background: #54add3 !important;
+}
+.collection-slider .title-product {
+  font-size: 12px;
+  padding: 5px 10px 0;
+  height: 25px;
+  color: #54add3;
+  text-transform: uppercase;
+}
+.collection-slider .img-product {
+  display: block;
+  width: 100%;
+  object-fit: contain;
+}
+.collection-slider .information-product {
+  background: #ffffff;
+  padding: 10px;
+}
+.collection-slider .name-product {
+  font-size: 16px;
+  text-transform: uppercase;
+  font-weight: 700;
+  line-height: 1.4rem;
+  max-width: 269.8px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.collection-slider .type-product {
+  font-size: 16px;
+  text-transform: capitalize;
+  margin-bottom: 10px;
+}
+.collection-slider .price-product {
+  font-size: 18px;
+  font-weight: 700;
+  color: #54add3;
+}
+.collection-slider .slick-slider .slick-list {
+  padding: 10px 0;
+  display: flex;
+}
+.collection-slider .slick-slider .slick-list:before {
+  content: "";
+  flex: 0 0 calc(17px + (100% - 1280px) / 2);
+  scroll-snap-align: start;
+}
+.collection-slider .slick-slider .slick-list:after {
+  content: "";
+  flex: auto;
+  scroll-snap-align: start;
+}
+.collection-slider .slick-slider .slick-track {
+  display: flex;
+  max-width: 3120px;
+  width: 3120px !important;
+  gap: 2px;
+}
+.collection-slider .arrow-collection-slider {
+  cursor: pointer;
+  display: none;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  max-width: 1248px;
+  width: 100%;
+  transform: translate(-50%, -50%);
+}
+.collection-slider .arrow-collection-slider .slick-disabled {
+  opacity: 0;
+}
+.collection-slider .arrow-collection {
+  position: absolute;
+  box-sizing: border-box;
+  padding: 5px;
+  display: flex;
+  right: 11px;
+  justify-content: center;
+  align-items: center;
+  background: #54add3;
+  color: #ffffff;
+  width: 40px;
+  height: 40px;
+  z-index: 4;
+}
+.collection-slider .prev {
+  transform: rotate(180deg);
+  left: 11px;
+}
+
+@media only screen and (max-width: 768px) {
+  .collection-slider {
+    padding: 50px 0;
+  }
+  .collection-slider .arrow-collection-slider {
+    display: none;
+  }
+  .collection-slider .item-product {
+    width: 200px;
+  }
+  .collection-slider .container-collection-slider:hover .arrow-collection-slider {
+    display: none;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */

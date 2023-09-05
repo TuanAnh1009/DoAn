@@ -1,0 +1,143 @@
+.page {
+    .content-page {
+        max-width: 1280px;
+        display: flex;
+        justify-content: center;
+        padding: 40px 8px 0;
+        margin: auto;
+    }
+
+    .container-content-page {
+        width: 70%;
+    }
+
+    .page-title {
+        font-size: 36px;
+        margin-bottom: 20px;
+        font-weight: 700;
+    }
+
+    .page-content {
+    }
+
+    //Register,Login
+    .container-account-page{
+        width: 100%;
+        max-width: 400px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+        .register-account, .login-account{
+            width: 100%;
+        }
+
+        .button-login, .btn-creat-account, .button-register {
+            text-align: center;
+            box-sizing: border-box;
+            display: block;
+            width: 100%;
+            color: #ffffff;
+            background: #54add3;
+            border: unset;
+            font-size: 17.5px;
+            font-weight: 400;
+            padding: 10px 30px;
+            text-transform: uppercase;
+        }
+
+        label {
+            display: block;
+            margin-bottom: 10px;
+
+            em {
+                color: red;
+            }
+        }
+
+        input {
+            padding: 0 10px;
+            display: block;
+            height: 40px;
+            font-size: 16px;
+            box-sizing: border-box;
+            width: 100%;
+            border: 1px solid #234766;
+            margin-bottom: 20px;
+        }
+
+        .login, .register {
+            text-decoration: underline;
+            text-transform: uppercase;
+            display: block;
+            text-align: center;
+            font-size: 14px;
+            margin: 20px 0;
+        }
+
+        .box {
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .save-pass {
+            font-size: 14px;
+            display: flex;
+            align-items: center;
+        }
+
+        #save-pass {
+            height: 14px;
+            width: unset;
+            margin: 0 0 0 10px;
+        }
+
+        .forgot-account {
+            font-size: 14px;
+        }
+    }
+}
+
+.account {
+    label {
+        display: block;
+        margin-bottom: 10px;
+
+        em {
+            color: red;
+        }
+    }
+
+    input {
+        padding: 0 10px;
+        display: block;
+        height: 40px;
+        font-size: 16px;
+        box-sizing: border-box;
+        width: 100%;
+        border: 1px solid #234766;
+        margin-bottom: 20px;
+    }
+
+    .save {
+        text-align: center;
+        box-sizing: border-box;
+        display: block;
+        width: 100px;
+        color: #ffffff;
+        background: #54add3;
+        border: unset;
+        font-size: 17.5px;
+        font-weight: 400;
+        padding: 10px 30px;
+        text-transform: uppercase;
+    }
+}
+
+body {
+    color: #234766!important;
+}
+
+
+

@@ -1,0 +1,53 @@
+.collections .product-collections {
+  max-width: 1280px;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+}
+.collections .container-list-collections {
+  padding: 40px 8px 0;
+  max-width: 90%;
+  width: 100%;
+}
+.collections .title-list-collections {
+  font-size: 36px;
+  margin-bottom: 40px;
+}
+.collections .list-collections {
+  display: flex;
+  flex-wrap: wrap;
+}
+.collections .item-collection {
+  width: 33.333%;
+  padding: 0 10px;
+  margin-bottom: 40px;
+}
+.collections .avatar-collection {
+  margin: auto;
+  max-height: 450px;
+  max-width: 450px;
+  object-fit: cover;
+  aspect-ratio: 1/1;
+  height: auto;
+  width: 100%;
+  display: block;
+}
+.collections .name-item-collection {
+  color: #54add3;
+  text-align: center;
+  font-size: 24px;
+  padding: 10px;
+}
+
+@media only screen and (max-width: 1024px) {
+  .collections .item-collection {
+    width: 50%;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .collections .item-collection {
+    width: 100%;
+  }
+}
+
+/*# sourceMappingURL=collections.css.map */

@@ -1,0 +1,352 @@
+.main-product .dot-slider-hero-banner {
+  max-width: 1280px;
+  margin: auto;
+  padding: 0 14.5px;
+  box-sizing: border-box;
+}
+.main-product .slick-active {
+  opacity: 1 !important;
+}
+.main-product .slick-dots:last-child {
+  display: none !important;
+}
+.main-product .slick-dots {
+  display: flex !important;
+  margin: 0;
+  padding: 10px 0;
+  list-style-type: none;
+}
+.main-product .slick-dots li {
+  margin: 0 4px;
+}
+.main-product .slick-dots button {
+  display: block;
+  width: 13px;
+  height: 13px;
+  padding: 0;
+  border: none;
+  border-radius: 100%;
+  background-color: #f2f2f2;
+  transition: background-color 0.5s ease;
+  text-indent: -9999px;
+}
+.main-product .slick-dots li.slick-active button {
+  background-color: #54add3;
+}
+.main-product .line:before {
+  background: #54add3;
+  content: "";
+  display: block;
+  height: 5px;
+  left: 0;
+  position: absolute;
+  right: 0;
+  top: 25px;
+  width: 100%;
+  z-index: 3;
+}
+.main-product .navigation .container-navigation {
+  max-width: 1280px;
+  margin: auto;
+  padding: 8px 18px;
+  font-size: 18px;
+}
+.main-product .product-information {
+  padding-bottom: 50px;
+}
+.main-product .product-information .container-product-information {
+  max-width: 1280px;
+  margin: auto;
+  padding: 20px 8px;
+}
+.main-product .product-information .information {
+  display: flex;
+  position: relative;
+  padding: 0 10px;
+}
+.main-product .product-information .product-media {
+  width: 55%;
+}
+.main-product .product-information .product-media img {
+  width: 100%;
+  object-fit: cover;
+  display: block;
+}
+.main-product .product-information .fancybox-slide {
+  padding: 40px 0;
+  opacity: 0;
+  z-index: -10;
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  height: 100vh;
+}
+.main-product .product-information .fancybox-slide .background-fancybox-slide {
+  position: absolute;
+  width: 100%;
+  top: 0;
+  bottom: 0;
+  height: 100%;
+  background-color: #000000;
+  opacity: 0.9;
+}
+.main-product .product-information .fancybox-slide .prev {
+  position: absolute;
+  transform: rotate(180deg) translateY(50%);
+  top: 50%;
+  left: 11px;
+}
+.main-product .product-information .fancybox-slide .next {
+  position: absolute;
+  transform: translateY(-50%);
+  top: 50%;
+  right: 11px;
+}
+.main-product .product-information .fancybox-slide .slick-list, .main-product .product-information .fancybox-slide .slick-track {
+  height: 100%;
+}
+.main-product .product-information .fancybox-slide img {
+  object-fit: contain;
+}
+.main-product .product-information .product-detail {
+  padding-left: 30px;
+  padding-right: 10px;
+  width: 45%;
+}
+.main-product .product-information .detail-header {
+  margin-bottom: 30px;
+}
+.main-product .product-information .name-collection {
+  font-size: 16px;
+  margin-bottom: 15px;
+  padding: 5px 0;
+  text-transform: uppercase;
+  color: #54add3;
+  font-weight: 900;
+}
+.main-product .product-information .name-product {
+  font-size: 30px;
+  margin-bottom: 10px;
+  text-transform: uppercase;
+  color: #54add3;
+  font-weight: 700;
+}
+.main-product .product-information .tag-product {
+  font-size: 16px;
+  margin-bottom: 15px;
+  text-transform: capitalize;
+  color: #54add3;
+  font-weight: 700;
+}
+.main-product .product-information .price-product {
+  font-size: 30px;
+  font-weight: 700;
+}
+.main-product .product-information .product-options {
+  text-transform: uppercase;
+  position: relative;
+  height: 80px;
+  font-size: 16px;
+  font-weight: 900;
+}
+.main-product .product-information .options-color, .main-product .product-information .choose-size {
+  margin-bottom: 20px;
+  display: flex;
+  align-items: center;
+}
+.main-product .product-information .list-color {
+  display: flex;
+  gap: 20px;
+  padding: 0 20px;
+}
+.main-product .product-information .list-color .options-size {
+  display: none;
+  position: absolute;
+  width: 100%;
+  left: 0;
+  bottom: 0;
+  align-items: center;
+}
+.main-product .product-information .list-color label {
+  display: block;
+  width: 30px;
+  height: 30px;
+}
+.main-product .product-information .list-color input:checked + label {
+  border: 1px #54add3 solid;
+}
+.main-product .product-information .list-color .color-item:first-child .options-size {
+  display: flex;
+}
+.main-product .product-information .list-color .cl-red {
+  background-color: red;
+}
+.main-product .product-information .list-color .cl-green {
+  background-color: green;
+}
+.main-product .product-information .list-color .cl-blue {
+  background-color: blue;
+}
+.main-product .product-information .list-color .cl-white {
+  background-color: #fff;
+  border: 1px solid #000000;
+  box-sizing: border-box;
+}
+.main-product .product-information .list-size {
+  padding: 0 20px;
+  display: flex;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 30px;
+  width: 100%;
+  text-transform: uppercase;
+  gap: 20px;
+}
+.main-product .product-information .list-size label {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50px;
+  height: 30px;
+  border: 1px #000 solid;
+}
+.main-product .product-information .size-guide {
+  margin-top: 20px;
+  font-size: 14px;
+  color: #54add3;
+  text-transform: capitalize;
+  font-weight: 600;
+}
+.main-product .product-information .product-button {
+  margin: 20px 0;
+  display: flex;
+  justify-content: center;
+}
+.main-product .product-information .add-to-cart {
+  align-items: center;
+  border: none;
+  padding: 7px 25px;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  background-color: #54add3;
+  color: #ffffff;
+  font-size: 17.5px;
+  text-transform: uppercase;
+  height: 50px;
+}
+.main-product .product-information .add-to-cart:hover {
+  background-color: #234766;
+}
+.main-product .product-information .info {
+  user-select: none;
+  cursor: pointer;
+  padding: 25px;
+  border-top: 0.2rem solid #e0e0e0;
+  font-size: 17px;
+  text-transform: uppercase;
+  display: grid;
+  gap: 30px;
+  grid-template-columns: 30px 1fr auto;
+  align-items: center;
+  justify-content: center;
+}
+.main-product .product-information .icon-item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.main-product .product-information .info:after {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #7d7d80;
+  content: "V";
+  height: 10px;
+  transition: transform 0.3s ease;
+  width: 10px;
+}
+.main-product .product-information .info-name {
+  font-weight: 600;
+}
+.main-product .product-information .content-detail {
+  display: none;
+  padding: 0 25px 25px;
+}
+.main-product .product-information .active-content-detail:after {
+  transform: rotate(180deg);
+}
+.main-product .product-information .arrow-product {
+  box-sizing: border-box;
+  padding: 5px;
+  display: flex;
+  opacity: 0.5;
+  justify-content: center;
+  align-items: center;
+  background: #54add3;
+  color: #ffffff;
+  width: 40px;
+  height: 40px;
+  z-index: 4;
+}
+.main-product .product-information .arrow-product:hover {
+  opacity: 1;
+}
+.main-product .product-information .nav-slider-product {
+  margin-top: 30px;
+  display: grid;
+  gap: 10px;
+  justify-content: center;
+  align-items: center;
+  grid-template-columns: 40px 1fr 40px;
+}
+.main-product .product-information .product-slider-nav {
+  overflow: hidden;
+}
+.main-product .product-information .product-slider-nav .slick-current {
+  border: 3px solid #54add3;
+}
+.main-product .product-information .product-slider-nav .slick-track {
+  max-width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+.main-product .product-information .product-slider-nav img {
+  display: block;
+  object-fit: unset;
+  max-height: 80px;
+  max-width: 80px;
+}
+.main-product .product-information .prev {
+  transform: rotate(180deg);
+  left: 11px;
+}
+
+@media only screen and (max-width: 768px) {
+  .main-product .line:before {
+    top: 15px;
+  }
+  .main-product .product-information .information {
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  .main-product .product-information .product-media {
+    width: 100%;
+  }
+  .main-product .product-information .fancybox-slide {
+    display: none;
+  }
+  .main-product .product-information .nav-slider-product {
+    display: none;
+  }
+  .main-product .product-information .product-detail {
+    width: 100%;
+    padding: 0 10px;
+  }
+}
+
+/*# sourceMappingURL=product.css.map */

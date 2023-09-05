@@ -1,0 +1,39 @@
+.content {
+  display: flex;
+}
+.content .content-left {
+  margin-right: 10px;
+}
+.content img {
+  height: 60px;
+}
+
+.text {
+  font-weight: 700;
+  color: #000;
+}
+.text span {
+  font-weight: 400;
+  color: #858796;
+}
+
+.list-image {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+.list-image img {
+  height: 200px;
+}
+
+.mm-active {
+  color: #ffffff;
+  font-weight: bold;
+}
+
+.cl-img {
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+/*# sourceMappingURL=custom.css.map */

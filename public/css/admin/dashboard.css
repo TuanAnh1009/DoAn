@@ -1,0 +1,141 @@
+.dashboard a {
+  cursor: pointer;
+}
+.dashboard .container-dashboard {
+  display: flex;
+}
+.dashboard .nav-dashboard {
+  color: #ffffff;
+  transition: max-width 0.5s ease;
+  padding: 25px;
+  position: relative;
+  background-color: #54add3;
+  max-width: 370px;
+  width: 100%;
+  height: 100vh;
+}
+.dashboard .icon-hide-show-nav {
+  background-color: #54add3;
+  color: #234766;
+  border-radius: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 45px;
+  height: 45px;
+  position: absolute;
+  transform: translate(50%, -50%);
+  top: 50%;
+  right: 0;
+}
+.dashboard .icon-hide-show-nav svg {
+  width: 40px;
+  height: 40px;
+}
+.dashboard .hide-nav-dashboard {
+  max-width: 150px;
+}
+.dashboard .hide-nav-dashboard #hide {
+  transform: rotate(-180deg);
+}
+.dashboard .hide-nav-dashboard .title-item {
+  flex-direction: column;
+}
+.dashboard .hide-nav-dashboard .arrow {
+  display: none;
+}
+.dashboard .content-dashboard {
+  width: 100%;
+}
+.dashboard .title-admin {
+  font-size: 24px;
+  text-transform: uppercase;
+  font-weight: 700;
+  width: 100%;
+  text-align: center;
+  margin-bottom: 20px;
+}
+.dashboard .item {
+  color: #ffffff;
+  text-transform: capitalize;
+  border-top: 1px solid #ffffff;
+  padding-top: 15px;
+}
+.dashboard .title-item {
+  user-select: none;
+  margin-bottom: 15px;
+  position: relative;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.dashboard .icon-item {
+  width: 20px;
+  height: 20px;
+}
+.dashboard .arrow {
+  transition: 0.5s ease;
+  position: absolute;
+  right: 0;
+  transform: rotate(-45deg);
+  border: solid #ffffff;
+  border-width: 0 3px 3px 0;
+  display: inline-block;
+  padding: 3px;
+}
+.dashboard .down {
+  transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+}
+.dashboard .nav-item {
+  display: none;
+  padding: 10px;
+  border-radius: 5px;
+  color: #234766;
+  background-color: #ffffff;
+}
+.dashboard .nav-item li {
+  padding: 10px 0;
+}
+.dashboard .content-dashboard {
+  background-color: #f2f2f2;
+}
+.dashboard .header-content {
+  display: flex;
+  align-items: center;
+  height: 80px;
+  background-color: #234766;
+}
+.dashboard .header-content .container-header-content {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding: 0 50px;
+}
+.dashboard .header-content .search {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+.dashboard .header-content .search input {
+  height: 25px;
+  padding: 0 10px;
+}
+.dashboard .header-content .search button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 29px;
+  width: 29px;
+}
+.dashboard .header-content .account-admin {
+  display: flex;
+  align-items: center;
+  color: #ffffff;
+}
+.dashboard .container-content {
+  padding: 25px;
+}
+
+/*# sourceMappingURL=dashboard.css.map */
